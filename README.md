@@ -1,1 +1,1 @@
-# minimo
+https://faridcse.github.io/minimo/
