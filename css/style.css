@@ -247,11 +247,13 @@ footer{
 .footer-right ul li{
     list-style: none;
     float: left;
+    color: #000;
 }
 .footer-right ul li a{
-    padding: 0 10px;
+    padding: 0 10px;    
 }
 .footer-right ul li a:hover{
+
 	opacity: .75;
 }
 
