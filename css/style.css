@@ -200,10 +200,11 @@ header{
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	color: #626262;
+	background: transparent;
 	cursor: pointer;
 	}
 .btn button:hover{
-	background: #fff;
+	background: #f0f0f0;
 }
 
 /* btn section css end */
