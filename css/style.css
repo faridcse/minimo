@@ -190,7 +190,7 @@ header{
 	btn section css start
 =====================================*/	
 .btn{
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     text-align: center;
 }
 .btn button{
@@ -200,7 +200,6 @@ header{
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	color: #626262;
-	float: bottom;
 	cursor: pointer;
 	}
 
@@ -229,6 +228,9 @@ footer{
     padding-right: 15px;
     color: #000;
 }
+.footer-left ul li a:hover{
+	color: #626262;
+}
 
 .footer-right{
 	width: 40%;
@@ -244,6 +246,9 @@ footer{
 }
 .footer-right ul li a{
     padding: 0 20px;
+}
+.footer-right ul li a:hover{
+	opacity: .5;
 }
 
 /* footer section css end
