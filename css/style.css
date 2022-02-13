@@ -1,0 +1,249 @@
+====================================
+	common css start
+==================================== */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+.container{
+	margin: 0 auto;
+	width: 90%;	
+	overflow: hidden;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.content_category{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	padding: 25px 0;
+}
+.content_header{
+	font-size: 30px;
+	font-weight: 700;	
+}
+
+.content_paragraph{
+	line-height: 25px;
+}
+/* common css end */
+
+
+/* ==================================
+	header section css start
+=================================== */
+
+header{
+	padding: 25px 0;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+
+.menu ul{
+    overflow: hidden;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	color: #626262;
+	padding: 5px 2px;
+	margin-right: 120px;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.3s;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+	color: #000;
+	border-bottom: 2px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/* header section css end */
+
+/* =================================
+	banner section css start
+==================================== */
+.banner{
+	padding: 50px 0 100px 0;
+}
+.banner_image{}
+.banner_image img{
+	width: 100%;
+}
+/* banner section css end */
+
+/* ====================================
+	perfect section css start
+===================================== */
+.perfect{}
+.perfect_content{}
+
+/* perfect section css end */
+
+/* ====================================
+	blogs section css start
+===================================== */
+.blog_section{
+	
+	overflow: hidden;
+}
+.blog{
+	width: 47%;
+	float: left;
+	margin-right: 60px;
+	padding: 50px 0;
+}
+.blog:nth-child(even){
+	margin-right: 0;
+}
+.blog_image{}
+.blog_image img{
+	width: 100%;
+}
+/* blogs section css end */
+
+/* ====================================
+	newsletter section css start
+=====================================*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.submit_form{
+	position: relative;
+	width: 400px;	
+	
+	margin: 0 auto;
+}
+.submit_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	background-color: transparent;
+	width: 350px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #333;
+	padding: 0 45px 0 5px;
+}
+.submit_form input:focus{
+	outline: 0;
+}
+.submit_form button{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.submit_form button:focus{
+	outline: 0;
+}
+/* newsletter section css end */
+
+/* ====================================
+	blog2 section css start
+=====================================*/
+.blog2_section{
+	padding: 100px 0;
+	overflow: hidden;
+}
+/* blog2 section css end */
+
+/* ====================================
+	btn section css start
+=====================================*/	
+.btn{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn button{
+	width: 160px;
+	height: 60px;
+	border: 1px solid #333;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #626262;
+	float: bottom;
+	cursor: pointer;
+	}
+
+/* btn section css end */
+
+
+/* ====================================
+	footer section css start
+=====================================*/
+footer{
+	overflow: hidden;
+	padding: 25px 0;
+	background: #f0f0f0;
+}
+.footer-left{
+	width: 40%;
+	float: left;
+}
+.footer-left ul{}
+.footer-left ul li{
+    list-style: none;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    float: left;
+    padding-right: 15px;
+    color: #000;
+}
+
+.footer-right{
+	width: 40%;
+	float: right;
+}
+.footer-right p{}
+.footer-right ul{
+    float: right;
+}
+.footer-right ul li{
+    list-style: none;
+    float: left;
+}
+.footer-right ul li a{
+    padding: 0 20px;
+}
+
+/* footer section css end
