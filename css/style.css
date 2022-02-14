@@ -115,14 +115,12 @@ header{
 	overflow: hidden;
 }
 .blog{
-	width: 47%;
+	width: 46.25%;
 	float: left;
-	/* margin-right: 60px; */
 	padding: 50px 0;
 }
 .blog:nth-child(even){
-	/* margin-right: 0; */
-	padding-left: 6%;
+	padding-left: 7.5%;
 }
 .blog_image{}
 .blog_image img{
